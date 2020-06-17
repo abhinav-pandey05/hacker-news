@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import DataTable from "./DataTable";
+import Chart from "./Chart";
 import ReactPaginate from "react-paginate";
 
-class App extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -50,9 +51,11 @@ class App extends Component {
             activeClassName={"active"}
           />
         </div>
+        {/* <div className="chart"></div> */}
+        <Chart dataSet = {this.state.data}/>
       </div>
     );
   }
 }
 
-export default App;
+export default Home;
