@@ -8,6 +8,7 @@ Functionalities created so far:
 2. Upvote (maintaining upvotes using in-browser storage APIs – no service integration). Users can add as many upvotes as they wish.
 3. Hide functionality to remove the news from user’s view.
 4. MODIFIED DATA like hide and Upvotes – is persisted and isn't getting reset on browser refresh.
+5. Deployed on heroku.
 
 
 Functionalities yet to impletement:- 
